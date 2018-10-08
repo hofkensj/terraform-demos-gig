@@ -56,7 +56,7 @@ resource "jumpscale_port_forwarding" "port_forward_ssh_Kub_Master_1" {
 resource "jumpscale_port_forwarding" "port_forward_ssh_Kub_Master_2" {
   cloudspace_id = "389"
   public_ip = "195.134.212.11"
-  public_port = 2202
+  public_port = 2203
   machine_id = "${jumpscale_machine.Kub_Master_2.id}"
   local_port = 22
   protocol = "tcp"
